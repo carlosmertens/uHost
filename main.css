@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-family: 'Anton', sans-serif;
+}
+
+h1 {
+  color: white;
+}
+
+.section-hero {
+  background-color: #fa4343;
+  height: 528px;
+  width: 100%;
+  padding: 20px;
+}
+
+#title-plan {
+  color: #659125;
+}
