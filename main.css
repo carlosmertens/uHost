@@ -16,12 +16,84 @@ h1 {
   color: white;
 }
 
+a {
+  text-decoration: none;
+}
+
+/* ========== Main Header ========== */
+
+.main-header {
+  background-color: #82e982;
+  width: 100%;
+  padding: 10px 15px;
+}
+
+.main-header > div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main-header__brand {
+  color: #3b5712;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.main-nav {
+  display: inline-block;
+  text-align: right;
+  width: calc(100% - 56px);
+  vertical-align: middle;
+}
+
+.main-nav__items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav__item {
+  display: inline-block;
+  color: #3b5712;
+  margin: 0 15px;
+}
+
+.main-nav__item a {
+  color: #3b5712;
+  font-weight: bold;
+  padding: 5px 0;
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active {
+  color: #fff;
+  border-bottom: solid 1px #fff;
+}
+
+.main-nav__item--cta a {
+  color: #fff;
+  background-color: #fa4343;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+  color: #fa4343;
+  background-color: #fff;
+  border: none;
+}
+
+/* ========== Section Hero ========== */
+
 .section-hero {
   background-color: #fa4343;
   height: 528px;
   width: 100%;
   padding: 20px;
 }
+
+/* ========== Section Plan ========== */
 
 #title-plan {
   color: #659125;
