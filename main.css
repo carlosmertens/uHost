@@ -87,7 +87,7 @@ a {
 /* ========== Section Hero ========== */
 
 .section-hero {
-  background-color: #fa4343;
+  background: url('freedom.jpg');
   height: 528px;
   width: 100%;
   padding: 20px;
