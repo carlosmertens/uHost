@@ -12,10 +12,6 @@ h2 {
   font-family: 'Anton', sans-serif;
 }
 
-h1 {
-  color: white;
-}
-
 a {
   text-decoration: none;
 }
@@ -108,3 +104,66 @@ a {
   width: 30%;
   vertical-align: middle;
 }
+
+.plan__title {
+  color: darkgreen;
+}
+
+.plan__price {
+  color: rgb(136, 158, 141);
+}
+
+.plan--highlghted {
+  background-color: limegreen;
+  color: white;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.plan--highlghted .plan__title {
+  color: white;
+}
+
+.plan--highlghted .plan__price {
+  color: darkgreen;
+}
+
+.plan__annotation {
+  background-color: white;
+  color: limegreen;
+  padding: 8px;
+  letter-spacing: 2px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+}
+
+.plan__features {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.plan__feature {
+  margin: 8px 0;
+}
+
+.button {
+  background-color: darkgreen;
+  color: white;
+  font: inherit;
+  font-weight: bold;
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.button:active,
+.button:hover {
+  background-color: white;
+  color: darkgreen;
+}
+
+/* .button:focus {
+  outline: none;
+} */
