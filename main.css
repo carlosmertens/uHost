@@ -16,6 +16,11 @@ a {
   text-decoration: none;
 }
 
+.section-title {
+  color: darkgreen;
+  text-align: center;
+}
+
 /* ========== Main Header ========== */
 
 .main-header {
@@ -90,11 +95,6 @@ a {
 
 /* ========== Section Plan ========== */
 
-.section-plan__title {
-  color: darkgreen;
-  text-align: center;
-}
-
 .plan {
   background-color: lightgreen;
   text-align: center;
@@ -167,3 +167,44 @@ a {
 /* .button:focus {
   outline: none;
 } */
+
+/* ========== Section Features ========== */
+
+#section-features {
+  background-color: red;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+#section-features .section-title {
+  color: white;
+}
+
+.features {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.feature {
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+}
+
+.feature__image {
+  background-color: pink;
+  width: 128px;
+  height: 128px;
+  border: 2px solid darkgray;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.feature__description {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
