@@ -19,6 +19,8 @@ a {
 .section-title {
   color: darkgreen;
   text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 /* ========== Main Header ========== */

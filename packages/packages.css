@@ -1,9 +1,13 @@
+main {
+  width: 80%;
+  margin: auto;
+}
+
 .section-package {
   background-color: lightgreen;
   width: 75%;
   border: 4px solid darkgreen;
-  border-left: none;
-  margin: 15px 0;
+  margin: 15px auto;
 }
 
 .section-package:hover,
