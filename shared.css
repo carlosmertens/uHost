@@ -30,6 +30,7 @@ a {
   width: 100%;
   padding: 10px 15px;
   position: fixed;
+  top: 0;
 }
 
 .main-header > div {

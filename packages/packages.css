@@ -3,6 +3,22 @@ main {
   margin: auto;
 }
 
+.background {
+  background: url('../images/plans-background.jpg');
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+.page-title {
+  color: darkgreen;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding-top: 40px;
+}
+
 .section-package {
   background-color: lightgreen;
   width: 75%;
