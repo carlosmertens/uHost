@@ -4,11 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>uHost</title>
-    <link rel="shortcut icon" href="./images/favicon.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="shortcut icon" href="/images/favicon.png" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      href="https://fonts.googleapis.com/css?family=Anton"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="shared.css" />
@@ -19,31 +21,34 @@
     <div class="backdrop"></div>
     <header class="main-header">
       <div>
-        <a href="index.html" class="main-header__brand"
-          ><img src="/images/uhost-icon.png" alt="uHost logo"
-        /></a>
+        <a href="index.html" class="main-header__brand">
+          <img
+            src="images/uhost-icon.png"
+            alt="uHost - Your favorite hosting company"
+          />
+        </a>
       </div>
       <nav class="main-nav">
         <ul class="main-nav__items">
           <li class="main-nav__item">
-            <a href="./packages/index.html">Packages</a>
+            <a href="packages/index.html">Packages</a>
           </li>
           <li class="main-nav__item">
-            <a href="./customers/index.html">Customers</a>
+            <a href="customers/index.html">Customers</a>
           </li>
           <li class="main-nav__item main-nav__item--cta">
-            <a href="#">Start Hosting</a>
+            <a href="start-hosting/index.html">Start Hosting</a>
           </li>
         </ul>
       </nav>
     </header>
     <main>
-      <section class="section-hero">
+      <section id="product-overview">
         <h1>Get the freedom you deserve.</h1>
       </section>
-      <section class="section-plan">
+      <section id="plans">
         <h1 class="section-title">Choose Your Plan</h1>
-        <div class="section-plan__box">
+        <div class="plan__list">
           <article class="plan">
             <h1 class="plan__title">FREE</h1>
             <h2 class="plan__price">$0/month</h2>
@@ -58,7 +63,7 @@
               <button class="button">CHOOSE PLAN</button>
             </div>
           </article>
-          <article class="plan plan--highlghted">
+          <article class="plan plan--highlighted">
             <h1 class="plan__annotation">RECOMMENDED</h1>
             <h1 class="plan__title">PLUS</h1>
             <h2 class="plan__price">$29/month</h2>
@@ -89,11 +94,11 @@
           </article>
         </div>
       </section>
-      <section id="section-features">
+      <section id="key-features">
         <h1 class="section-title">Many Good Reasons to Stick Around</h1>
-        <ul class="features">
-          <li class="feature">
-            <div class="feature__image">
+        <ul class="key-feature__list">
+          <li class="key-feature">
+            <div class="key-feature__image">
               <svg viewBox="0 0 512 512">
                 <path
                   style="fill: #f09b24"
@@ -290,10 +295,10 @@
                 />
               </svg>
             </div>
-            <p class="feature__description">3,857,000 Trusting Customers</p>
+            <p class="key-feature__description">3,857,000 Trusting Customers</p>
           </li>
-          <li class="feature">
-            <div class="feature__image">
+          <li class="key-feature">
+            <div class="key-feature__image">
               <svg viewBox="0 0 512 512">
                 <path
                   style="fill: #69788d"
@@ -401,10 +406,10 @@
                 </g>
               </svg>
             </div>
-            <p class="feature__description">99.999% Uptime Guarantee</p>
+            <p class="key-feature__description">99.999% Uptime Guarantee</p>
           </li>
-          <li class="feature">
-            <div class="feature__image">
+          <li class="key-feature">
+            <div class="key-feature__image">
               <svg viewBox="0 0 512 512">
                 <path
                   style="fill: #8e9aa9"
@@ -482,7 +487,7 @@
                 </g>
               </svg>
             </div>
-            <p class="feature__description">Lightning Fast CDN</p>
+            <p class="key-feature__description">Lightning Fast CDN</p>
           </li>
         </ul>
       </section>
