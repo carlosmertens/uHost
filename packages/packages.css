@@ -1,4 +1,5 @@
 main {
+  padding-top: 6rem;
   width: 80%;
   margin: auto;
 }
@@ -11,19 +12,11 @@ main {
   height: 100%;
 }
 
-.page-title {
-  color: darkgreen;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  padding-top: 40px;
-}
-
 .section-package {
   background-color: lightgreen;
   width: 75%;
   border: 4px solid darkgreen;
-  margin: 15px auto;
+  margin: 1rem auto;
   position: relative;
 }
 
@@ -35,7 +28,7 @@ main {
 
 .section-package a {
   display: block;
-  padding: 20px 15px;
+  padding: 1.25rem 0.95rem;
 }
 
 .section-package__title {
@@ -46,7 +39,7 @@ main {
   position: absolute;
   top: 0;
   right: 0;
-  margin: 8px;
+  margin: 0.5rem;
 }
 
 .section-package__subtitle {
@@ -57,7 +50,7 @@ main {
   background-color: white;
   color: darkgreen;
   border: 1px solid darkgreen;
-  padding: 10px;
+  padding: 0.6rem;
 }
 
 .package-highlghted {
