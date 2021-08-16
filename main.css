@@ -25,6 +25,7 @@
   font-size: 1.6rem;
 }
 
+/* ========== MEDIA SCREEN SETTINGS ========== */
 @media (min-width: 40rem) {
   #product-overview {
     height: 40vh;
@@ -40,6 +41,7 @@
   text-align: center;
 }
 
+/* ========== PLAN FEATURES ========== */
 .plan {
   background: #d5ffdc;
   text-align: center;
@@ -88,6 +90,7 @@
   margin: 0.5rem 0;
 }
 
+/* ========== MEDIA SCREEN SETTINGS ========== */
 @media (min-width: 40rem) {
   .plan__list {
     width: 100%;
@@ -105,6 +108,7 @@
   }
 }
 
+/* ========== KEY FEATURES ========== */
 #key-features {
   background: #ff1b68;
   margin-top: 5rem;
@@ -124,9 +128,16 @@
 }
 
 .key-feature {
-  display: inline-block;
-  width: 30%;
-  vertical-align: top;
+  width: 100%;
+}
+
+@media (min-width: 40rem) {
+  .key-feature {
+    display: inline-block;
+    width: 30%;
+    max-width: 25rem;
+    vertical-align: top;
+  }
 }
 
 .key-feature__image {
